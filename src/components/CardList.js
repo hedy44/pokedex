@@ -9,13 +9,13 @@ const CardList = ({pokemon}) => {
     return (
         <div className='card-list'>
             {pokemon.map((p, index) => (
-      <Card
-      key={index}
-      name={pokemon[index].name}
-      types={pokemon[index].types}
-      sprites={pokemon[index].sprites}
-      />
-    ))}
+                <Card
+                key={index}
+                name={pokemon[index].name}
+                types={pokemon[index].types}
+                sprites={pokemon[index].sprites}
+                />
+             ))}
         </div>
     )
 }
