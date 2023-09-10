@@ -1,19 +1,19 @@
 import React from 'react';
 import Card from './Card';
 
-const CardList = ({pokemon}) => {
-
-    console.log(pokemon);
-
+    const CardList = ({ pokemon, searchField }) => {
+        const filteredPokemon = pokemon.filter((p) => {
+          return p.name.toLowerCase().includes(searchField.toLowerCase());
+        });
 
     return (
         <div className='card-list'>
-            {pokemon.map((p, index) => (
+            {filteredPokemon.map((p, index) => (
                 <Card
                 key={index}
-                name={pokemon[index].name}
-                types={pokemon[index].types}
-                sprites={pokemon[index].sprites}
+                name={p.name}
+                types={p.types}
+                sprites={p.sprites}
                 />
              ))}
         </div>
