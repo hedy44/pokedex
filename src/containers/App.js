@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
 import 'tachyons';
-import CardList from './components/CardList';
-import SearchBox from './components/SearchBox';
+import CardList from '../components/CardList';
+import SearchBox from '../components/SearchBox';
 
 class App extends Component{
   constructor(){
@@ -54,7 +54,7 @@ class App extends Component{
     return( 
     <div className="App">
 
-     <h1 className='tc'>Pokedex , search the pokemon you looking for</h1>
+     <h1 className='tc f-subheadline lh-title'>Pokédex</h1>
      <SearchBox searchChange={this.onSearchChange} />
      <CardList pokemon={this.state.pokemon} searchField={this.state.searchField} />
 
