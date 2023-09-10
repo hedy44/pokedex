@@ -47,8 +47,10 @@ class App extends Component{
      // O método render é onde definimos a estrutura do nosso componente.
     return( 
     <div className="App">
+
      <h1 className='tc'>Pokedex , search the pokemon you looking for</h1>
      <CardList pokemon={this.state.pokemon} />
+     
     </div>
     )
   }
