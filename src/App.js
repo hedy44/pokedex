@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 import './App.css';
 import 'tachyons';
 import CardList from './components/CardList';
+import SearchBox from './components/SearchBox';
 
 class App extends Component{
   constructor(){
     super();
     this.state = {
       pokemon: [],
+      searchField: ''
     };
   }
 
@@ -40,6 +42,10 @@ class App extends Component{
       });
   }
 
+  onSearchChange = (event) => {
+    this.setState({ searchField: event.target.value });
+    console.log(this.state.searchField); // Adicione esta linha
+  }
   
 
   render(){
@@ -49,8 +55,9 @@ class App extends Component{
     <div className="App">
 
      <h1 className='tc'>Pokedex , search the pokemon you looking for</h1>
-     <CardList pokemon={this.state.pokemon} />
-     
+     <SearchBox searchChange={this.onSearchChange} />
+     <CardList pokemon={this.state.pokemon} searchField={this.state.searchField} />
+
     </div>
     )
   }
