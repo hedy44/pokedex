@@ -8,11 +8,14 @@ const Card = ({ name, types, sprites}) =>{
 
         
         <div className='bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5 '>
+
             <img className="tc" alt={`Pokemon ${name}`} src= {sprites.front_default} />
+
             <div>
             <h2>{name}</h2>
             <p>Types: {typeList}</p>
             </div>
+            
         </div>
     )
 }
