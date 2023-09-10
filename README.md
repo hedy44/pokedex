@@ -29,6 +29,8 @@ Follow these steps to clone and run the project on your local machine:
    http://localhost:3000
      ```
 
+---
+
 ## How to Use the Application
 
 The Pokedex React App allows you to:
