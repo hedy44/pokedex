@@ -18,7 +18,7 @@ class App extends Component{
     //método fetch para fazer uma solicitação à API PokeAPI para obter uma lista de 9 Pokémon. 
     //O método fetch retorna uma promessa, então encadeamos .then() para lidar com a resposta e a transformamos em JSON.
 
-    fetch('https://pokeapi.co/api/v2/pokemon?limit=20')
+    fetch('https://pokeapi.co/api/v2/pokemon?limit=150')
     .then((response) => response.json())
     .then((dataPoke)=>{
        // Mapear a lista de resultados para criar um array de promessas
@@ -56,7 +56,9 @@ class App extends Component{
 
      <h1 className='tc f-subheadline lh-title'>Pokédex</h1>
      <SearchBox searchChange={this.onSearchChange} />
-     <CardList pokemon={this.state.pokemon} searchField={this.state.searchField} />
+     <div className="container"> {/* Adicione a classe 'container' aqui */}
+          <CardList pokemon={this.state.pokemon} searchField={this.state.searchField} />
+        </div>
 
     </div>
     )
