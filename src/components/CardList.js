@@ -12,6 +12,7 @@ import Card from './Card';
             {filteredPokemon.map((p, index) => (
                 <Card
                 key={index} 
+                id={p.id}
                 name={p.name}
                 types={p.types}
                 sprites={p.sprites}
