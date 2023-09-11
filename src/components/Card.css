@@ -1,0 +1,81 @@
+/* Estilos para o círculo de fundo de tipo Fire */
+.fire-circle {
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(238,129,48,1) 100%);
+  }
+  
+/* Estilos para o círculo de fundo de tipo Water */
+.water-circle {
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(99,144,240,1) 100%);
+  }
+  
+/* Estilos para o círculo de fundo de tipo Bug */
+.bug-circle {
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(166,185,26,1) 100%);
+  }
+
+/* Estilos para o círculo de fundo de tipo Poison */
+.poison-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(163,62,161,1) 100%);
+  }
+
+/* Estilos para o círculo de fundo de tipo Normal */
+.normal-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(168,167,122,1) 100%);
+  }
+
+/* Estilos para o círculo de fundo de tipo Electric */
+.electric-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(255,239,0,1) 100%);
+  }
+
+/* Estilos para o círculo de fundo de tipo Ground */
+.ground-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(226,191,101,1) 100%);
+  }
+
+/* Estilos para o círculo de fundo de tipo Fairy */
+.fairy-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(255,132,244,1) 100%);
+  }
+
+/* Estilos para o círculo de fundo de tipo Psychic */
+.psychic-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(249,85,135,1) 100%);
+  }
+
+  /* Estilos para o círculo de fundo de tipo Grass */
+.grass-circle {
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(122,199,76,1) 100%);
+  }
+  /* Estilos para o círculo de fundo de tipo Fighting */
+.fighting-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(194,46,40,1) 100%);
+  }
+  /* Estilos para o círculo de fundo de tipo Rock */
+.rock-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(182,161,54,1) 100%);
+  }
+  /* Estilos para o círculo de fundo de tipo Ghost */
+.ghost-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(115,87,151,1) 100%);
+  }
+
+/* Estilos para o círculo de fundo de tipo Ice */
+.ice-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(150,217,214,1) 100%);
+  }
+
+/* Estilos para o círculo de fundo de tipo Dragon */
+.dragon-circle{
+    background: linear-gradient(216deg, rgba(0,0,0,0.02563032048757008) 50%, rgba(111,53,252,1) 100%);
+  }
+
+
+  .circle {
+   /* Ajuste o tamanho conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Faz com que o div seja um círculo */
+    
+  }
