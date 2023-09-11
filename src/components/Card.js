@@ -11,12 +11,11 @@ const Card = ({ name, types, sprites}) =>{
     return (
 
         
-        <div className='bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5 '>
+        <div className=' bg-light-gray dib br3 pa3 ma2 grow bw2 shadow-5'>
 
-            <img className="tc" alt={`Pokemon ${name}`} src= {sprites.front_default} />
-
-            <div>
-            <h2>{capitalizeFirstLetter(name)}</h2>
+            <div className='tc'>
+            <img alt={`Pokemon ${name}`} src= {sprites.front_default} style={{ width: '150px', height: '150px' }}/>
+            <h2 className='f3'>{capitalizeFirstLetter(name)}</h2>
             <p>Types: {typeList}</p>
             </div>
 
