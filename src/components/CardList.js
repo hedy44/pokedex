@@ -7,10 +7,10 @@ import Card from './Card';
         });
 
     return (
-        <div className='card-list'>
+        <div className='card-list flex flex-wrap justify-center'>
             {filteredPokemon.map((p, index) => (
                 <Card
-                key={index}
+                key={index} 
                 name={p.name}
                 types={p.types}
                 sprites={p.sprites}
