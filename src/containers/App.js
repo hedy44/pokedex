@@ -4,6 +4,8 @@ import 'tachyons';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 
+
+
 class App extends Component{
   constructor(){
     super();
@@ -55,10 +57,11 @@ class App extends Component{
 
      <h1 className='tc f-subheadline lh-title'>Pokédex</h1>
      <SearchBox searchChange={this.onSearchChange} />
-     <div className="container"> {/* Adicione a classe 'container' aqui */}
+     
+     <div className="container">
           <CardList pokemon={this.state.pokemon} searchField={this.state.searchField} />
-        </div>
-
+      </div>
+    
     </div>
     )
   }
