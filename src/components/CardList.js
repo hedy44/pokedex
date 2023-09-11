@@ -6,7 +6,8 @@ import Card from './Card';
           return p.name.toLowerCase().includes(searchField.toLowerCase());
         });
 
-    return (
+    return !pokemon.length ?
+    <h1 className='tc f1'>Loading</h1> :(
         <div className='card-list flex flex-wrap justify-center'>
             {filteredPokemon.map((p, index) => (
                 <Card
