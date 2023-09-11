@@ -48,7 +48,7 @@ const TypeBadge = ({ types }) => {
     return (
         <div className="type-badges tc">
           {types.map((type, index) => (
-            <div key={index} className={`type-badge ${typeColors[index]}`}>
+            <div key={index} className={`br2 type-badge ${typeColors[index]}`}>
               {type.type.name}
             </div>
           ))}
