@@ -1,5 +1,7 @@
 import React from 'react';
 import './Card.css'; 
+import TypeBadge from './TypeBadge';
+
 
 const Card = ({  name, types, sprites, id}) =>{
     const typeList = types.map((typeObj) => typeObj.type.name).join(', ');
@@ -25,7 +27,7 @@ const Card = ({  name, types, sprites, id}) =>{
 
             <div className='tc'>
                 <h2 className='f3'>{capitalizeFirstLetter(name)}</h2>
-                <p>Types: {typeList}</p>
+                <TypeBadge types={types} />
             </div>
 
         </div>
