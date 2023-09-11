@@ -8,5 +8,12 @@
 
 h1 {
   font-family: 'Pokemon Hollow Normal';
-  color: Red;
+  color: red;
+}
+
+
+.container {
+  max-width: 1000px; /* Largura máxima da sua Pokédex */
+  margin: 0 auto; /* Centralize o conteúdo horizontalmente */
+  padding: 20px; /* Espaçamento interno */
 }
