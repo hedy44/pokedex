@@ -1,77 +1,132 @@
 .bg-normal {
     background-color: rgba(168,167,122,1);
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 .bg-fire {
     background-color: rgba(238,129,48,1) ;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 .bg-water {
     background-color: rgba(99,144,240,1) ;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-electric {
     background-color: rgba(255,239,0,1);
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-grass {
     background-color: rgba(122,199,76,1);
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-ice {
     background-color: rgba(150,217,214,1);
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-fighting {
     background-color: rgba(194,46,40,1) ;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-poison {
     background-color: rgba(163,62,161,1);
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-ground {
     background-color: rgba(226,191,101,1);
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-psychic {
     background-color: rgba(249,85,135,1);
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-bug {
     background-color: rgba(166,185,26,1);
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-rock {
     background-color: rgba(182,161,54,1) ;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-ghost {
     background-color: rgba(115,87,151,1) ;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-dragon {
     background-color: rgba(111,53,252,1);
+     border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
 .bg-fairy {
     background-color: rgba(255,132,244,1);
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 .bg-flying {
     background-color: #A98FF3;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
+}
+
+.bg-steel {
+    background-color: #B7B7CE;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
 }
 
 
