@@ -4,7 +4,6 @@ import TypeBadge from './TypeBadge';
 
 
 const Card = ({  name, types, sprites, id}) =>{
-    const typeList = types.map((typeObj) => typeObj.type.name).join(', ');
     // Verificar o primeiro tipo do Pokémon (assumindo que cada Pokémon tem pelo menos um tipo)
     const primaryType = types[0].type.name;
     // Formate o número do Pokémon para ter sempre 3 dígitos preenchidos com zeros à esquerda
