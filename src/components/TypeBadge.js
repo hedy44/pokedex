@@ -38,13 +38,15 @@ const TypeBadge = ({ types }) => {
           return 'bg-dragon';
         case 'fairy':
           return 'bg-fairy';
+          case 'steel':
+          return 'bg-steel';
         default:
           return 'bg-light-gray'; // Fallback para um fundo padrão.
       }
     });
 
     return (
-        <div className="type-badges">
+        <div className="type-badges tc">
           {types.map((type, index) => (
             <div key={index} className={`type-badge ${typeColors[index]}`}>
               {type.type.name}
