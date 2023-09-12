@@ -3,6 +3,11 @@ import './TypeBadge.css';
 
 
 const TypeBadge = ({ types }) => {
+
+  const capitalizeFirstLetter = (string) =>{
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
     // Mapeie cada tipo para a classe de cor correspondente
     const typeColors = types.map((type) => {
       switch (type.type.name.toLowerCase()) {
@@ -49,7 +54,7 @@ const TypeBadge = ({ types }) => {
         <div className="type-badges tc">
           {types.map((type, index) => (
             <div key={index} className={`br2 type-badge ${typeColors[index]}`}>
-              {type.type.name}
+              {capitalizeFirstLetter(type.type.name)}
             </div>
           ))}
         </div>
