@@ -51,8 +51,6 @@ This project was developed using the following technologies:
 If you would like to contribute to this project, feel free to create pull requests or report issues. Your feedback is valuable!
 
 ## License
-
-## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
